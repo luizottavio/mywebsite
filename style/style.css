@@ -3,12 +3,15 @@
 .header {
     height: 10vh;
     background: #3B74BF;
-    padding: 20px 20px;
+    padding: 0px 20px;
 }
 
-ul {
-    top: 115px;
+nav {
+    position: absolute;
+    top: 4vh; 
+    height: 100px;
 }
+
 
 ul > li {
     display: inline;
@@ -18,18 +21,46 @@ ul > li {
 
 li > a {
     color: #FFFF;
-    font-weight: bold;
     font-size: 1.1em;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 
-
 .inicio {
     background:#91BBF2;
-    height: 70vh;
+    height: 90vh;
     
-}    
+}
+
+.titulo {
+    position: absolute;
+    text-align: center;
+    top: 50vh;
+    width: 50vw;
+}
+
+.sobre-min {
+    background: #1B52Bf;
+    height: 100vh;
+}
+
+.projetos{
+    background:#91BBF2;
+    height: 100vh;
+}
+
+
+
+.habilidades {
+    background: #1B52Bf;
+    height: 90vh;
+}
+
+.footer {
+    height: 10vh;
+    background: #3B74BF;
+}
+
 
 
