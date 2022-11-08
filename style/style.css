@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.header {
+    height: 10vh;
+    background: #3B74BF;
+    padding: 20px 20px;
+}
+
+ul {
+    top: 115px;
+}
+
+ul > li {
+    display: inline;
+    margin: 0px 0px 0px 15px;
+   
+}
+
+li > a {
+    color: #FFFF;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.inicio {
+    background:#91BBF2;
+    height: 70vh;
+    
+}    
+
+
