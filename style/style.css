@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
 .header {
     height: 10vh;
     background: #3B74BF;
@@ -26,23 +29,31 @@ li > a {
     text-transform: uppercase;
 }
 
-
+/* */
 .inicio {
-    background:#91BBF2;
+    background-image: linear-gradient(45deg, #91BBF2, #1B52Bf);
     height: 90vh;
+ 
     
 }
-
 .titulo {
     position: absolute;
     text-align: center;
+    text-align: justify;
     top: 50vh;
-    width: 50vw;
+    padding-left: 10vw; 
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    
 }
+
+
 
 .sobre-min {
     background: #1B52Bf;
     height: 100vh;
+    text-align: center;
 }
 
 .projetos{
