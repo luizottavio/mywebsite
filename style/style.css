@@ -5,21 +5,18 @@
 
 .header {
     height: 10vh;
-    background: #3B74BF;
+  
+    background:#91BBF2;
     padding: 0px 20px;
 }
-
 nav {
     position: absolute;
     top: 4vh; 
 }
-
 ul > li {
     display: inline;
     margin: 0px 0px 0px 15px;
-   
 }
-
 li > a {
     font-family: 'Noto Sans', sans-serif;
     color: #FFFF;
@@ -27,19 +24,26 @@ li > a {
     text-decoration: none;
     text-transform: uppercase;
 }
-
 a:hover {
     text-decoration: underline;
     font-weight: bold;
-    color: #91BBF2;
+    color: #1B52Bf;
+
 }
+.logo {
+    display: inline;
+    position: relative;
+    width: 190px;
+    top: 1vh;
+    left: 70%;
+}
+
 
 
 .inicio {
     background-image: linear-gradient(45deg, #91BBF2, #1B52Bf);
     height: 90vh;
 }
-
 .titulo-pr {
     position: absolute;
     text-align: center;
@@ -69,7 +73,6 @@ a:hover {
     top: 55vh;
     padding-left: 10vw; 
 }
-
 .foto {
     position: absolute;
     top: 45vh;
@@ -79,31 +82,50 @@ a:hover {
 }
 
 
+
+.titulo-de-secao {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.2em;
+    color: #FFFF;
+    padding-top: 40px;
+}
+
+
+
 .sobre-min {
     background: #1B52Bf;
     height: 100vh;
     text-align: center;
 }
-
-
-.projetos{
-    background:#91BBF2;
-    height: 100vh;
+.paragrafo-sm {
+    text-align: justify;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5em;
+    color: #FFFF;
+    padding-top: 40px;
 }
 
 
 
+
+.projetos{
+    background: #3B74BF;
+    height: 100vh;
+}
+
 .habilidades {
     background: #1B52Bf;
-    height: 90vh;
+    height: 100vh;
 }
 
 
 
 
 .footer {
-    height: 10vh;
-    background: #3B74BF;
+    height: 15vh;
+    background: #91BBF2;
 }
 .footer > p {
     font-family: 'Noto Sans', sans-serif;
