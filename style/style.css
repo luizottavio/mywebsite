@@ -5,7 +5,6 @@
 
 .header {
     height: 10vh;
-  
     background:#91BBF2;
     padding: 0px 20px;
 }
@@ -19,22 +18,23 @@ ul > li {
 }
 li > a {
     font-family: 'Noto Sans', sans-serif;
-    color: #FFFF;
-    font-size: 1.1em;
+    color: #1B52Bf;
+    font-size: 1.2em;
+    font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
 }
 a:hover {
     text-decoration: underline;
     font-weight: bold;
-    color: #1B52Bf;
+    color: #3b90ffc0;
 
 }
 .logo {
     display: inline;
     position: relative;
     width: 190px;
-    top: 1vh;
+    top: 0.5vh;
     left: 70%;
 }
 
@@ -129,7 +129,7 @@ a:hover {
 }
 .footer > p {
     font-family: 'Noto Sans', sans-serif;
-    color: #FFFF;
+    color: #1B52Bf;
     font-size: 1vw;
     padding-left: 10vw; 
     padding-top: 1vh; 
