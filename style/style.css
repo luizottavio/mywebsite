@@ -8,6 +8,45 @@
     background:#91BBF2;
     padding: 0px 20px;
 }
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1000px;
+
+}
+
+a {
+    font-family: 'Noto Sans', sans-serif;
+    color: #1B52Bf;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #3b90ffc0;
+
+}
+
+.logo {
+    display: inline;
+    position: relative;
+    width: 190px;
+    top: 0.5vh;
+    left: 70%;
+}
+
+
+/*
 nav {
     position: absolute;
     top: 4vh; 
@@ -24,19 +63,10 @@ li > a {
     text-decoration: none;
     text-transform: uppercase;
 }
-a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-    color: #3b90ffc0;
 
-}
-.logo {
-    display: inline;
-    position: relative;
-    width: 190px;
-    top: 0.5vh;
-    left: 70%;
-}
+
+
+*/
 
 
 
