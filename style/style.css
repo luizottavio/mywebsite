@@ -11,12 +11,14 @@
 
 .conteiner {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 1000px;
-
 }
-
+ul {
+    display: flex;
+    column-gap: 30px;
+    margin-left: 9vh;
+}
 a {
     font-family: 'Noto Sans', sans-serif;
     color: #1B52Bf;
@@ -25,48 +27,19 @@ a {
     text-decoration: none;
     text-transform: uppercase;
 }
-
-
-
-
-
 a:hover {
     text-decoration: underline;
     font-weight: bold;
     color: #3b90ffc0;
-
 }
-
 .logo {
     display: inline;
     position: relative;
+    justify-content: right;
     width: 190px;
     top: 0.5vh;
-    left: 70%;
+    padding-right: 10vw; 
 }
-
-
-/*
-nav {
-    position: absolute;
-    top: 4vh; 
-}
-ul > li {
-    display: inline;
-    margin: 0px 0px 0px 15px;
-}
-li > a {
-    font-family: 'Noto Sans', sans-serif;
-    color: #1B52Bf;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-
-
-*/
 
 
 
