@@ -30,7 +30,7 @@ a {
 a:hover {
     text-decoration: underline;
     font-weight: bold;
-    color: #3b90ffc0;
+    color: #3b90ff;
 }
 .logo {
     display: inline;
@@ -65,7 +65,6 @@ a:hover {
     color: #FFFF;
     top: 45vh;
     padding-left: 10vw; 
-
 }
 .titulo-dois {
     position: absolute;
@@ -85,32 +84,59 @@ a:hover {
 }
 
 
-
+/*Titulos*/
 .titulo-de-secao {
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 2.2em;
+    font-size: 2.3em;
     color: #FFFF;
-    padding-top: 40px;
+    padding-top: 50px;
+}
+.titulo-sobre-mim {
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.3em;
+    color: #FFFF;
+    padding-top: 50px;
 }
 
 
-
-.sobre-min {
+/*Seção sobre Mim*/
+.sobre-mim {
     background: #1B52Bf;
     height: 100vh;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
-.paragrafo-sm {
+.paragrafo-sobre-mim {
+    justify-content: center;
+    align-items: center;
     text-align: justify;
-    text-align: center;
+    align-items: center;
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.5em;
+    line-height: 1.5em;
     color: #FFFF;
-    padding-top: 40px;
 }
 
-
+.right-sobre-mim {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.left-sobre-mim {
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.animacao {
+    display: flex;
+    width: 400px;
+}
 
 
 .projetos{
