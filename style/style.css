@@ -2,6 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
+@keyframes animacao-pr{
+    
+    from {width:0px;}
+    to {width:29vw;}
+
+}
+@keyframes animacao-1{
+    
+    from {width:0px;}
+    to {width:22vw;}
+
+}
+@keyframes animacao-2{
+    
+    from {width:0px;}
+    to {width:26vw;}
+
+}
 
 .header {
     height: 10vh;
@@ -54,9 +72,23 @@ a:hover {
     font-size: 2.5vw;
     font-weight: bold;
     color: #FFFF;
-    top: 50vh;
-    padding-left: 10vw
+    top: 51vh;
+    padding-left: 10vw;
+    padding-top: 2px;
 }
+#animacao-pr {
+    position: absolute;
+    text-align: center; 
+    padding: 0px;
+    margin-left: 10vw;
+    top: 56vh;
+    width: 29vw;
+    height: 8px;
+    background-color: #FFFF;
+    animation-name: animacao-pr;
+    animation-duration: 1.5s;
+}
+
 .titulo-um {
     position: absolute;
     text-align: center;
@@ -66,17 +98,39 @@ a:hover {
     top: 45vh;
     padding-left: 10vw; 
 }
+#animacao-1 {
+    position: absolute;
+    text-align: center; 
+    padding: 0px;
+    margin-left: 10vw;
+    top: 49vh;
+    width: 22vw;
+    height: 8px;
+    background-color: #FFFF;
+    animation-name: animacao-1;
+    animation-duration: 1.5s;
+}
+
 .titulo-dois {
     position: absolute;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     font-size: 2vw;
     color: #FFFF;
-    top: 55vh;
+    top: 59vh;
     padding-left: 10vw; 
 }
-.animacao {
-    
+#animacao-2 {
+    position: absolute;
+    text-align: center; 
+    padding: 0px;
+    margin-left: 10vw;
+    top: 63vh;
+    width: 26vw;
+    height: 8px;
+    background-color: #FFFF;
+    animation-name: animacao-2;
+    animation-duration: 1.5s;
 }
 
 
