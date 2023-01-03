@@ -24,15 +24,17 @@
 @keyframes animacao-1{
     
     from {width:0px;}
-    to {width:22vw;}
+    to {width:28vw;}
 
 }
 @keyframes animacao-2{
     
     from {width:0px;}
-    to {width:26vw;}
+    to {width:32vw;}
 
 }
+
+
 
 .header {
     height: 10vh;
@@ -78,12 +80,13 @@ a:hover {
     background-image: linear-gradient(45deg, #91BBF2, #1B52Bf);
     height: 90vh;
 }
+
 .titulo-pr {
     position: absolute;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2.5vw;
-    font-weight: bold;
+    font-size: 3em;
+    font-weight: 550;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     color: #FFFF;
     top: 51vh;
@@ -100,9 +103,9 @@ a:hover {
     position: absolute;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 2.4em;
     color: #FFFF;
-    top: 45vh;
+    top: 44vh;
     padding-left: 10vw; 
 }
 #animacao-1 {
@@ -111,7 +114,7 @@ a:hover {
     padding: 0px;
     margin-left: 10vw;
     top: 49vh;
-    width: 22vw;
+    width: 28vw;
     height: 4px;
     background-color: #FFFF;
     animation-name: animacao-1;
@@ -120,11 +123,10 @@ a:hover {
 
 .titulo-dois {
     position: absolute;
-    text-align: center;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 2.4em;
     color: #FFFF;
-    top: 59vh;
+    top: 58vh;
     padding-left: 10vw; 
 }
 #animacao-2 {
@@ -132,13 +134,29 @@ a:hover {
     text-align: center; 
     padding: 0px;
     margin-left: 10vw;
-    top: 63vh;
-    width: 26vw;
+    top: 62vh;
+    width: 32vw;
     height: 4px;
     background-color: #FFFF;
     animation-name: animacao-2;
     animation-duration: 2s;
 }
+
+.linkedin{
+    position: absolute;
+    text-align: center;
+    background-color: #1B52Bf;
+    top: 70vh;
+    padding: 15px 70px 15px 70px;
+    margin-left: 14vw; 
+    border-radius: 15px;
+}
+.link-linkedin {
+    color: #FFFF;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.2em;
+}
+
 
 
 .foto {
