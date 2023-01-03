@@ -3,10 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 @keyframes animacao-pr{
-    
-    from {width:0px;}
-    to {width:29vw;}
 
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+
+}
+@keyframes animacao-pr-tx {
+    
+    from {
+        width: 0;
+    }
+    to {
+        width: 32vw;
+    }
 }
 @keyframes animacao-1{
     
@@ -68,25 +81,19 @@ a:hover {
 .titulo-pr {
     position: absolute;
     text-align: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 2.5vw;
     font-weight: bold;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
     color: #FFFF;
     top: 51vh;
     padding-left: 10vw;
     padding-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
 }
-#animacao-pr {
-    position: absolute;
-    text-align: center; 
-    padding: 0px;
-    margin-left: 10vw;
-    top: 56vh;
-    width: 29vw;
-    height: 8px;
-    background-color: #FFFF;
-    animation-name: animacao-pr;
-    animation-duration: 1.5s;
+.animacao-pr {
+    animation: animacao-pr steps(40) 1s infinite normal, animacao-pr-tx  4s steps(40) 500ms normal;
 }
 
 .titulo-um {
@@ -105,10 +112,10 @@ a:hover {
     margin-left: 10vw;
     top: 49vh;
     width: 22vw;
-    height: 8px;
+    height: 4px;
     background-color: #FFFF;
     animation-name: animacao-1;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
 }
 
 .titulo-dois {
@@ -127,10 +134,10 @@ a:hover {
     margin-left: 10vw;
     top: 63vh;
     width: 26vw;
-    height: 8px;
+    height: 4px;
     background-color: #FFFF;
     animation-name: animacao-2;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
 }
 
 
