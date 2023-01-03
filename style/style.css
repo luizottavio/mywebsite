@@ -18,19 +18,23 @@
         width: 0;
     }
     to {
-        width: 32vw;
+        width: 11.3em;
     }
 }
 @keyframes animacao-1{
     
-    from {width:0px;}
-    to {width:28vw;}
+    from {width:0px;
+    }
+    to {width: 11em;
+    }
 
 }
 @keyframes animacao-2{
     
-    from {width:0px;}
-    to {width:32vw;}
+    from {width:0px;
+    }
+    to {width:13em;
+    }
 
 }
 
@@ -61,9 +65,8 @@ a {
     text-transform: uppercase;
 }
 a:hover {
-    text-decoration: underline;
     font-weight: bold;
-    color: #3b90ff;
+    color: #E54F23;
 }
 .logo {
     display: inline;
@@ -84,77 +87,83 @@ a:hover {
 .titulo-pr {
     position: absolute;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 3em;
-    font-weight: 550;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
-    color: #FFFF;
+    color: #1B52Bf;
     top: 51vh;
-    padding-left: 10vw;
-    padding-top: 2px;
+    margin-left: 14vw;
     white-space: nowrap;
     overflow: hidden;
 }
 .animacao-pr {
-    animation: animacao-pr steps(40) 1s infinite normal, animacao-pr-tx  4s steps(40) 500ms normal;
+    animation: animacao-pr steps(40) 1s infinite normal, animacao-pr-tx 3s 300ms normal both;
 }
 
 .titulo-um {
     position: absolute;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 2.4em;
+    font-size: 2.2em;
     color: #FFFF;
-    top: 44vh;
-    padding-left: 10vw; 
+    top: 45vh;
+    margin-left: 14vw; 
 }
 #animacao-1 {
     position: absolute;
     text-align: center; 
     padding: 0px;
-    margin-left: 10vw;
+    margin-left: 14vw;
     top: 49vh;
-    width: 28vw;
+    width: 11em;
     height: 4px;
     background-color: #FFFF;
     animation-name: animacao-1;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 .titulo-dois {
     position: absolute;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 2.4em;
+    font-size: 2.2em;
     color: #FFFF;
     top: 58vh;
-    padding-left: 10vw; 
+    margin-left: 14vw; 
 }
 #animacao-2 {
     position: absolute;
     text-align: center; 
     padding: 0px;
-    margin-left: 10vw;
+    margin-left: 14vw;
     top: 62vh;
-    width: 32vw;
+    width: 13em;
     height: 4px;
     background-color: #FFFF;
     animation-name: animacao-2;
-    animation-duration: 2s;
+    animation-duration: 4s;
 }
 
 .linkedin{
     position: absolute;
-    text-align: center;
     background-color: #1B52Bf;
+    text-align: center;
     top: 70vh;
-    padding: 15px 70px 15px 70px;
-    margin-left: 14vw; 
-    border-radius: 15px;
+    padding: 15px 100px 15px 100px;
+    margin-left: 16vw; 
+    border-radius: 50px;
 }
 .link-linkedin {
-    color: #FFFF;
     font-family: 'Noto Sans', sans-serif;
+    font-size: 2em;
+    color: #FFFF;
+    font-weight: lighter;
+}
+.link-linkedin:hover {
+    text-decoration: none;
     font-size: 2.2em;
+    font-weight: lighter;
+    color:  #E54F23;
+    padding: 15px 110px 15px 110px;
 }
 
 
