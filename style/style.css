@@ -68,6 +68,10 @@ a:hover {
     font-weight: bold;
     color: #E54F23;
 }
+.sessãos {
+    transition: 4s;
+    transform: scale(1.1);
+}
 .logo {
     display: inline;
     position: relative;
@@ -146,26 +150,24 @@ a:hover {
 .linkedin{
     position: absolute;
     background-color: #1B52Bf;
-    text-align: center;
-    top: 70vh;
-    padding: 15px 100px 15px 100px;
-    margin-left: 16vw; 
-    border-radius: 50px;
-}
-.link-linkedin {
+    color: #FFFF;
     font-family: 'Noto Sans', sans-serif;
     font-size: 2em;
-    color: #FFFF;
     font-weight: lighter;
+    text-align: center;
+    padding: 15px 0;
+    top: 70vh;
+    width: 20%;
+    margin-left: 16vw; 
+    border-radius: 50px;
+    transition: 1s;
 }
 .link-linkedin:hover {
     text-decoration: none;
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: lighter;
-    color:  #E54F23;
-    padding: 20px 105px 20px 105px;
+    transform: scale(1.1);
 }
-
 
 
 .foto {
