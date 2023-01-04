@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
-@keyframes animacao-pr{
+@keyframes animacao-cursor{
 
     from {
         border-right-color: rgba(255, 255, 255, 0.75);
@@ -12,7 +12,7 @@
     }
 
 }
-@keyframes animacao-pr-tx {
+@keyframes animacao-principal-txt {
     
     from {
         width: 0;
@@ -39,13 +39,12 @@
 }
 
 
-/*Seção cabeçalho*/
+/*Seção zero // CABEÇALHO*/
 .header {
     height: 10vh;
     background:#91BBF2;
     padding: 0px 40px;
 }
-
 .conteiner {
     display: flex;
     justify-content: space-between;
@@ -68,7 +67,6 @@ a:hover {
     font-weight: bold;
     color: #E54F23;
 }
-
 .logo {
     display: inline;
     position: relative;
@@ -79,13 +77,12 @@ a:hover {
 }
 
 
-
+/*Sessão Um // INICIO */
 .inicio {
     background-image: linear-gradient(45deg, #91BBF2, #1B52Bf);
     height: 90vh;
 }
-
-.titulo-pr {
+.titulo-principal {
     position: absolute;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
@@ -97,8 +94,8 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
 }
-.animacao-pr {
-    animation: animacao-pr steps(40) 1s infinite normal, animacao-pr-tx 3s 300ms normal both;
+.animacao-principal {
+    animation: animacao-cursor steps(40) 1s infinite normal, animacao-principal-txt 4s 300ms normal both;
 }
 
 .titulo-um {
@@ -144,7 +141,7 @@ a:hover {
     animation-duration: 4s;
 }
 
-.linkedin{
+.button{
     position: absolute;
     background-color: #1B52Bf;
     color: #FFFF;
@@ -159,7 +156,7 @@ a:hover {
     border-radius: 50px;
     transition: 1s;
 }
-.link-linkedin:hover {
+.button:hover {
     text-decoration: none;
     font-size: 2em;
     font-weight: lighter;
