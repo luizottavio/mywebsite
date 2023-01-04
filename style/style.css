@@ -68,10 +68,7 @@ a:hover {
     font-weight: bold;
     color: #E54F23;
 }
-.sessãos {
-    transition: 4s;
-    transform: scale(1.1);
-}
+
 .logo {
     display: inline;
     position: relative;
@@ -213,6 +210,7 @@ a:hover {
     font-size: 1.5em;
     line-height: 1.5em;
     color: #FFFF;
+    margin-right: 8vw;
 }
 
 .right-sobre-mim {

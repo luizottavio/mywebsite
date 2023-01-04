@@ -8,9 +8,9 @@
 
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="font/Minecrafter.Alt.ttf">
-   
-
+  
 </head>
 
 <body>
@@ -23,12 +23,12 @@
                     <li><a class="sessãos" href="#projetos">projetos</a></li>
                 </ul>
             </nav>
-            <h2> <img class="logo" src="img/html.png" alt=""></h2>
+            <h2> <img class="logo" src="img/html.png" alt="logo-site"></h2>
         </div>
     </header>
     <!--Sessão Um // INICIO-->
     <main class="inicio">
-        <a class="sessãos" name="inicio"></a>
+        <a class="sesãos" name="inicio"></a>
         <section class="inicio">
             <h2 class="titulo-um">/* Olá muito prazer, Sou </h2>
             <p  id="animacao-1" class="titulo-um"></p>
@@ -47,14 +47,14 @@
     <main class="sobre-mim">
         <a class="sessãos" name="sobre-mim"></a>
         <section class="sobre-mim">
-            <div class="left-sobre-mim">
+            <div class="left-sobre-mim" data-aos="fade-right">
                 <p>
                     <img src="img/programmer-animate.svg" class="animacao" alt="Animação ilustrada">
                 </p>
             </div>
-            <h2 class="titulo-sobre-mim">Sobre Mim</h2>
+            <h2 class="titulo-sobre-mim"  data-aos="fade-up">Sobre Mim</h2>
             <div class="right-sobre-mim">
-                <p class="paragrafo-sobre-mim">
+                <p class="paragrafo-sobre-mim" data-aos="fade-left">
                     Rey eventualmente encontra o sabre de luz de Anakin Skywalker na Fortaleza Pirata, e tem uma visão na Força, Maz Kanata diz que o sabre pertenceu a Anakin e Luke, e agora "chama" por Rey, mas ela o rejeita e vai embora. A Primeira Ordem chega na Fortaleza atrás dos mapas, com ajuda da Resistência e do Poe, Han, Finn e Chewbacca conseguem escapar, mas Rey é capturada por Kylo Ren. Ele tenta tirar informações dela, mas ela poderosa na Força e ele não consegue.
                 </p>
             </div>
@@ -84,8 +84,11 @@
                 </a>
                 <a href="https://github.com/luizottavio" target="_blank">
                     <img class="img-copy-git" src="img/github-logo.png" alt="github-logo">
+                </a>    
             </P>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="animacao.js"></script>
 </body>
 </html>
