@@ -1,0 +1,118 @@
+/*Sessão Um // INICIO */
+.inicio {
+    background-image: linear-gradient(45deg, #91BBF2, #1B52Bf);
+    height: 90vh;
+}
+.titulo-principal {
+    position: absolute;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3em;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: #1B52Bf;
+    top: 51vh;
+    margin-left: 14vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.animacao-principal {
+    animation: animacao-cursor steps(40) 1s infinite normal, animacao-principal-txt 4s 300ms normal both;
+}
+.titulo-um {
+    position: absolute;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.2em;
+    color: #FFFF;
+    top: 45vh;
+    margin-left: 14vw; 
+}
+.linha-um {
+    position: absolute;
+    text-align: center; 
+    padding: 0px;
+    margin-left: 14vw;
+    top: 49vh;
+    width: 11.5em;
+    height: 2px;
+    background-color: #FFFF;
+    animation-name: linha-um;
+    animation-duration: 4s;
+}
+.titulo-dois {
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.2em;
+    color: #FFFF;
+    top: 58vh;
+    margin-left: 14vw; 
+}
+.linha-dois {
+    position: absolute;
+    text-align: center; 
+    padding: 0px;
+    margin-left: 14vw;
+    top: 62vh;
+    width: 13em;
+    height: 2px;
+    background-color: #FFFF;
+    animation-name: linha-dois;
+    animation-duration: 4s;
+}
+.button{
+    position: absolute;
+    background-color: #1B52Bf;
+    color: #FFFF;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+    padding: 15px 0;
+    top: 70vh;
+    width: 20%;
+    margin-left: 16vw; 
+    border-radius: 50px;
+    transition: 1s;
+}
+.button:hover {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: lighter;
+    transform: scale(1.1);
+}
+.foto {
+    position: absolute;
+    top: 45vh;
+    width: 10vw;
+    right: 5vw;
+    padding-right: 8vw; 
+}
+
+@keyframes animacao-cursor{
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+@keyframes animacao-principal-txt {
+    from {
+        width: 0;
+    }
+    to {
+        width: 11.3em;
+    }
+}
+@keyframes linha-um{
+    from {width:0;
+    }
+    to {width: 11.5em;
+    }
+}
+@keyframes linha-dois{
+    from {width:0;
+    }
+    to {width:13em;
+    }
+}

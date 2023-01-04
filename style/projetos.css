@@ -1,0 +1,14 @@
+/*Sessão três// PROJETOS*/
+.titulo-de-secao {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.3em;
+    color: #FFFF;
+    padding-top: 50px;
+}
+
+
+.projetos{
+    background:  #1b52bfa9;;
+    height: 100vh;
+}

@@ -1,0 +1,43 @@
+/*Sessão Dois // SOBRE MIM*/
+.sobre-mim {
+    background: #1B52Bf;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.titulo-sobre-mim {
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.3em;
+    color: #FFFF;
+    padding-top: 50px;
+}
+.paragrafo-sobre-mim {
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #FFFF;
+    margin-right: 8vw;
+}
+.right-sobre-mim {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.left-sobre-mim {
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.animacao {
+    display: flex;
+    width: 400px;
+}
