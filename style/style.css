@@ -23,15 +23,15 @@
 }
 @keyframes animacao-1{
     
-    from {width:0px;
+    from {width:0;
     }
-    to {width: 11em;
+    to {width: 11.5em;
     }
 
 }
 @keyframes animacao-2{
     
-    from {width:0px;
+    from {width:0;
     }
     to {width:13em;
     }
@@ -39,11 +39,11 @@
 }
 
 
-
+/*Seção cabeçalho*/
 .header {
     height: 10vh;
     background:#91BBF2;
-    padding: 0px 20px;
+    padding: 0px 40px;
 }
 
 .conteiner {
@@ -54,7 +54,7 @@
 ul {
     display: flex;
     column-gap: 30px;
-    margin-left: 9vh;
+    margin-left: 10vw;
 }
 a {
     font-family: 'Noto Sans', sans-serif;
@@ -74,7 +74,7 @@ a:hover {
     justify-content: right;
     width: 190px;
     top: 0.5vh;
-    padding-right: 10vw; 
+    padding-right: 12vw; 
 }
 
 
@@ -115,8 +115,8 @@ a:hover {
     padding: 0px;
     margin-left: 14vw;
     top: 49vh;
-    width: 11em;
-    height: 4px;
+    width: 11.5em;
+    height: 2px;
     background-color: #FFFF;
     animation-name: animacao-1;
     animation-duration: 4s;
@@ -137,7 +137,7 @@ a:hover {
     margin-left: 14vw;
     top: 62vh;
     width: 13em;
-    height: 4px;
+    height: 2px;
     background-color: #FFFF;
     animation-name: animacao-2;
     animation-duration: 4s;
@@ -163,7 +163,7 @@ a:hover {
     font-size: 2.2em;
     font-weight: lighter;
     color:  #E54F23;
-    padding: 15px 110px 15px 110px;
+    padding: 20px 105px 20px 105px;
 }
 
 
@@ -233,29 +233,42 @@ a:hover {
 
 
 .projetos{
-    background: #3B74BF;
+    background:  #1b52bfa9;;
     height: 100vh;
 }
-
-.habilidades {
-    background: #1B52Bf;
-    height: 100vh;
-}
-
-
-
 
 .footer {
-    height: 15vh;
-    background: #91BBF2;
-}
-.footer > p {
-    font-family: 'Noto Sans', sans-serif;
     color: #1B52Bf;
-    font-size: 1vw;
-    padding-left: 10vw; 
-    padding-top: 1vh; 
+    background: #91BBF2;
+    height: 15vh;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+}
+.conteiner-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-
+.creditos {
+    padding-top: 4vh;
+    margin-left: 10vw;
+}
+.copy {
+    text-align: center;
+    padding-top: 4vh;
+}
+.img-copy-git {
+    width: 70px;
+    height: 70px;
+    display: inline;
+    position: relative;
+    padding-top: 4vh;
+    margin-right: 10vw;
+}
+.img-copy-link {
+    width: 70px;
+    height: 70px;
+    padding-top: 4vh;
+    margin-right: 1vw;
+}
