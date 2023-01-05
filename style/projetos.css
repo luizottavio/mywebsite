@@ -1,26 +1,45 @@
 /*Sessão três// PROJETOS*/
-.titulo-de-secao {
-    text-align: center;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 2.3em;
-    color: #FFFF;
-    padding-top: 50px;
-}
-
-
 .projetos{
     background:  #1b52bfa9;
     height: 100vh;
 }
-
+.titulo-projetos {
+    text-align: center;
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 3em;
+    color: #FFFF;
+    padding-top: 50px;
+}
 .conteiner-proj {
     display: flex;
     justify-content: space-between;
     background:  #1b52bf00;
     width: 60vw;
-    height: 70vh;
     margin-top: 50px;
     margin-left: 20vw;
+}
+.conteiner-prnj-esconder {
+    display: flex;
+    justify-content: space-between;
+    background:  #1b52bf00;
+    width: 60vw;
+    margin-left: 20vw;
+}
+.button-mostra {
+    display: block;
+    font: 1.2em sans-serif;
+    background:  #1b52bf00;
+    color: white;
+    border: none;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.button-mostra:hover {
+    text-decoration: underline;
+}
+.hide {
+    display: none;
 }
 
 .cads {

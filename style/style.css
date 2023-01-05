@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
+@font-face {
+    font-family: 'Minecrafter';
+    src: url('font/Minecrafter.Alt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*Seção zero // CABEÇALHO*/
 .header {
@@ -46,7 +52,7 @@ a:hover {
     background: #91BBF2;
     height: 15vh;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 .conteiner-footer {
     display: flex;
