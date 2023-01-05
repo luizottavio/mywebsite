@@ -9,6 +9,39 @@
 
 
 .projetos{
-    background:  #1b52bfa9;;
+    background:  #1b52bfa9;
     height: 100vh;
+}
+
+.conteiner-proj {
+    display: flex;
+    justify-content: space-between;
+    background:  #1b52bf00;
+    width: 60vw;
+    height: 70vh;
+    margin-top: 50px;
+    margin-left: 20vw;
+}
+
+.cads {
+    display: flex;
+    justify-content: center;
+    background-color: #c5cae9;
+    width: 400px;
+    height: 250px;
+    margin: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.226);
+    transition: 1s;
+}
+.cads:hover {
+    transform: scale(1.1);
+}
+.em-breve {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    padding-top: 100px;
+    text-transform: uppercase;
 }
