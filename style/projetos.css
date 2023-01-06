@@ -25,19 +25,27 @@
     width: 60vw;
     margin-left: 20vw;
 }
+
 .button-mostra {
     display: block;
     font: 1.2em sans-serif;
-    background:  #1b52bf00;
-    color: white;
+    font-weight: lighter;
+    background-color: #1B52Bf;
+    color: #FFFF;
     border: none;
+    border-radius: 50px;
     margin: auto;
-    padding-top: 30px;
+    width: 250px;
+    height: 50px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.226);
     cursor: pointer;
+    transition: 1s;
 }
 .button-mostra:hover {
-    text-decoration: underline;
+    transform: scale(1.1);
+    text-decoration: none;
 }
+
 .hide {
     display: none;
 }
