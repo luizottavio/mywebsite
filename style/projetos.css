@@ -75,9 +75,13 @@
 
 #em-breve {
     font-family: 'Noto Sans', sans-serif;
-    color: black;
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-weight: bold;
+    color: black;
+    padding-top: 100px;
     text-decoration: none;
     text-transform: uppercase;
+}
+#em-breve:hover { 
+    text-decoration: underline;
 }
