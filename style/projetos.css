@@ -72,3 +72,12 @@
     padding-top: 100px;
     text-transform: uppercase;
 }
+
+#em-breve {
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}

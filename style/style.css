@@ -50,6 +50,10 @@ ul {
     text-transform: uppercase;
 }
 
+#sessaos:hover{
+    color: #032a79;
+}
+
 .logo {
     display: inline;
     position: relative;
