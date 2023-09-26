@@ -65,7 +65,7 @@
     color: #FFFF;
     font-family: 'Noto Sans', sans-serif;
     font-size: 2em;
-    font-weight: lighter;
+    text-decoration: none;
     text-align: center;
     padding: 15px 0;
     top: 70vh;
@@ -79,7 +79,6 @@
     text-decoration: none;
     color: #FFFF;
     font-size: 2em;
-    font-weight: lighter;
     transform: scale(1.1);
 }
 .foto {

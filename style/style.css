@@ -25,7 +25,7 @@ ul {
     column-gap: 30px;
     margin-left: 10vw;
 }
-a {
+.sessaos-um {
     font-family: 'Noto Sans', sans-serif;
     color: #1B52Bf;
     font-size: 1.2em;
@@ -33,10 +33,23 @@ a {
     text-decoration: none;
     text-transform: uppercase;
 }
-a:hover {
+.sessaos-dois {
+    font-family: 'Noto Sans', sans-serif;
+    color: #1B52Bf;
+    font-size: 1.2em;
     font-weight: bold;
-    color: #E54F23;
+    text-decoration: none;
+    text-transform: uppercase;
 }
+.sessaos-tres {
+    font-family: 'Noto Sans', sans-serif;
+    color: #1B52Bf;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .logo {
     display: inline;
     position: relative;
