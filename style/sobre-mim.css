@@ -41,3 +41,17 @@
     display: flex;
     width: 400px;
 }
+
+@media (max-width: 1100px) {
+    .paragrafo-sobre-mim {
+        
+        
+        
+        
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 1.4em;
+        
+        color: #FFFF;
+        
+    }
+}

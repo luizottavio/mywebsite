@@ -133,3 +133,69 @@
     to {width:13em;
     }
 }
+
+@media (max-width: 960px) {
+    .titulo-principal {
+        position: absolute;
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 3em;
+        border-right: 2px solid rgba(255, 255, 255, 0.75);
+        color: #1B52Bf;
+        top: 51vh;
+        margin-left: 10vw;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .titulo-um {
+        position: absolute;
+        text-align: center;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 2em;
+        color: #FFFF;
+        top: 45vh;
+        margin-left: 10vw; 
+    }
+    .linha-um {
+        position: absolute;
+        text-align: center; 
+        padding: 0px;
+        margin-left: 10vw;
+        top: 49vh;
+        width: 11.5em;
+        height: 2px;
+        background-color: #FFFF;
+        animation-name: linha-um;
+        animation-duration: 4s;
+    }
+    .titulo-dois {
+        position: absolute;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 2em;
+        color: #FFFF;
+        top: 58vh;
+        margin-left: 10vw; 
+    }
+    .linha-dois {
+        position: absolute;
+        text-align: center; 
+        padding: 0px;
+        margin-left: 10vw;
+        top: 62vh;
+        width: 13em;
+        height: 2px;
+        background-color: #FFFF;
+        animation-name: linha-dois;
+        animation-duration: 4s;
+    }
+
+
+
+    .foto {
+        position: absolute;
+        top: 40vh;
+        width: 180px;
+        right: 4vw;
+        padding-right: 2vw; 
+    }
+}

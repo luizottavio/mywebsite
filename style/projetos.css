@@ -85,3 +85,33 @@
 #em-breve:hover { 
     text-decoration: underline;
 }
+
+@media (max-width: 1150px)  {
+    .projetos{
+        background:  #1b52bfa9;
+        height: 120%;
+    }
+    .conteiner-proj {
+        display: block;
+        justify-content: space-between;
+        background:  #1b52bf00;
+        width: 60vw;
+        margin-top: 50px;
+        margin-left: 30vw;
+    }
+    .button-mostra {
+        display: block;
+        font: 1.2em sans-serif;
+        font-weight: lighter;
+        background-color: #1B52Bf;
+        color: #FFFF;
+        border: none;
+        border-radius: 50px;
+        margin: auto;
+        width: 250px;
+        height: 50px;
+        box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.226);
+        cursor: pointer;
+        transition: 1s;
+    }
+}
