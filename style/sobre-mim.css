@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
+    text-indent: 30px;
     align-items: center;
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.4em;
@@ -42,16 +43,10 @@
     width: 400px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 999px) {
     .paragrafo-sobre-mim {
-        
-        
-        
-        
         font-family: 'Noto Sans', sans-serif;
-        font-size: 1.4em;
-        
+        font-size: 1.1em;
         color: #FFFF;
-        
     }
 }
