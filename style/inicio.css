@@ -134,6 +134,16 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .foto {
+        position: absolute;
+        top: 40vh;
+        width: 200px;
+        right: 4vw;
+        padding-right: 2vw; 
+    }
+}
+
 @media (max-width: 960px) {
     .titulo-principal {
         position: absolute;
@@ -189,10 +199,18 @@
         animation-duration: 4s;
     }
 
-
-
     .foto {
         position: absolute;
+        top: 40vh;
+        width: 180px;
+        right: 4vw;
+        padding-right: 2vw; 
+    }
+}
+
+@media (max-width: 940px) {
+    .foto {
+        display: block;
         top: 40vh;
         width: 180px;
         right: 4vw;
